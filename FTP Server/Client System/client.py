@@ -8,7 +8,7 @@ print("Socket created successfully")
 #print("Current timeout ",str(c.gettimeout()))
 
 try:                                                                                                                                                                                                                                                                                                                                                                        
-    c.connect(('192.168.56.1',12345))
+    c.connect(('localhost',12345))
     print("Connected...")
 except socket.timeout as E:
     print("Timeout Error: ",str(E))
