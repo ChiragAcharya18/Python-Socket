@@ -3,6 +3,7 @@ import sys
 
 c = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
 c.connect(('localhost',9999))
+print("Connected")
 
 msg = input("Enter message: ")
 
