@@ -2,7 +2,7 @@ import socket
 import sys
 
 c = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
-c.connect(('192.168.56.1',9999))
+c.connect(('localhost',9999))
 
 msg = input("Enter message: ")
 
